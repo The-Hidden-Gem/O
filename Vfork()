@@ -14,7 +14,7 @@ pid_t pid;
  else if (pid == 0) {
  printf("Child process: Hello, I'm the child!\n");
  printf("Child process: My PID is %d\n", getpid());
- printf("Child process: My parent's PID is %d\n", getppid());
+ printf("Child process: My parent's PID is %d\n", getpid());
  _exit(0);
  }
  else {
